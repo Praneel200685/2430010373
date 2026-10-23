@@ -1,0 +1,9 @@
+# Replace with the exact versions from YOUR environment before submitting:  pip freeze | grep -iE "torch|numpy|pandas|scikit|matplotlib|seaborn|jupyter"
+python==3.10
+torch==2.3.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+jupyter==1.0.0
