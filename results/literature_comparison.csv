@@ -1,0 +1,5 @@
+Model,Paper (reference),Accuracy,Precision,Recall,F1,AUC,Parameters,Same dataset/split? Notes
+SOTA Model 1,"FILL: e.g. Kachuee et al., 2018 - ECG heartbeat classification: a deep transferable representation",,,,,,,"Copy numbers from the paper; state any differences in split/classes"
+SOTA Model 2,"FILL: second published MIT-BIH 5-class method",,,,,,,
+SOTA Model 3,"FILL: third published MIT-BIH 5-class method",,,,,,,
+Proposed Model,This work (see comparison.csv),,,,,,,

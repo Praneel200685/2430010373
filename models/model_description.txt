@@ -1,0 +1,11 @@
+Trained weights are written to models/<config>.pt by src/train.py (best epoch by validation macro-F1).
+Each .pt holds: state_dict, config, hyperparameters, params count, training time.
+
+Configs
+  cnn         : 3x[Conv1d-BN-ReLU-MaxPool] -> GAP -> FC                      (baseline)
+  lstm/bilstm : 2-layer (Bi)LSTM, hidden 64, last hidden state -> FC         (baseline)
+  resnet1d    : conv stem + 5 residual blocks (Kachuee-style) -> GAP -> FC   (reproduced published-style baseline)
+  cnn_bilstm  : 2x ConvBlock(48,96) -> BiLSTM(64) -> mean pool -> MLP        (ablation baseline)
+  abl_A       : + A  Multi-scale (k=3,5,7) SE-CNN front end
+  abl_AB      : + B  additive temporal attention pooling over BiLSTM states
+  proposed    : + C  class-weighted focal loss (gamma=2) + ECG augmentation (noise/scale/shift)
