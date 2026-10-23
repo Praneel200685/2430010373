@@ -4,9 +4,9 @@
 # 2. Student Details
 | Field | Value |
 |---|---|
-| Name | `<YOUR NAME>` |
-| Registration Number | `<YOUR REG NO>` |
-| Section | `<YOUR SECTION>` |
+| Name | `Praneel Kapoor` |
+| Registration Number | `2430010373` |
+| Section | `D` |
 
 # 3. Dataset
 | Item | Details |
