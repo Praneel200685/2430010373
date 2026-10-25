@@ -1,0 +1,5 @@
+Configuration,A: Multi-Scale SE,B: Temporal Attention,C: Focal Loss + Aug,Macro F1-Score,Accuracy,ROC-AUC,Parameters
+Baseline (CNN-BiLSTM),-,-,-,0.8822,0.9792,0.9866,115093
+Exp. 1 (+ MS-SE-CNN),yes,-,-,0.8652,0.9767,0.9851,118135
+Exp. 2 (+ Temporal Attn),yes,yes,-,0.8954,0.9817,0.9907,134776
+Full system,yes,yes,yes,0.861,0.9705,0.9843,134776

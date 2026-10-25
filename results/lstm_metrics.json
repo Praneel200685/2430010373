@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.8249588890919057,
+  "macro_precision": 0.39017970568798865,
+  "macro_recall": 0.38744719629658697,
+  "macro_f1": 0.38057283423932,
+  "macro_specificity": 0.9018857990102523,
+  "macro_auc": 0.7216439090026034,
+  "weighted_precision": 0.8268725873937615,
+  "weighted_recall": 0.8249588890919057,
+  "weighted_f1": 0.8238146946549791,
+  "config": "lstm",
+  "parameters": 50757,
+  "train_time_s": 94.4,
+  "epochs_run": 10,
+  "inference_ms_per_sample": 0.053
+}

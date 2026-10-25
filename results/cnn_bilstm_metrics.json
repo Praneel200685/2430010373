@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.9791704732322309,
+  "macro_precision": 0.9118349935848584,
+  "macro_recall": 0.8580670172770353,
+  "macro_f1": 0.8821798452621827,
+  "macro_specificity": 0.9837863965937856,
+  "macro_auc": 0.9865572262388064,
+  "weighted_precision": 0.9781878039792539,
+  "weighted_recall": 0.9791704732322309,
+  "weighted_f1": 0.9783402886910831,
+  "config": "cnn_bilstm",
+  "parameters": 115093,
+  "train_time_s": 56.9,
+  "epochs_run": 10,
+  "inference_ms_per_sample": 0.0291
+}

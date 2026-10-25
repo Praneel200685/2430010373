@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.9704915037456605,
+  "macro_precision": 0.8385545489205894,
+  "macro_recall": 0.8901727576569755,
+  "macro_f1": 0.8610249660039937,
+  "macro_specificity": 0.9842023901881356,
+  "macro_auc": 0.9843085946959123,
+  "weighted_precision": 0.9716356017084575,
+  "weighted_recall": 0.9704915037456605,
+  "weighted_f1": 0.9709178588955677,
+  "config": "proposed",
+  "parameters": 134776,
+  "train_time_s": 84.4,
+  "epochs_run": 10,
+  "inference_ms_per_sample": 0.0353
+}

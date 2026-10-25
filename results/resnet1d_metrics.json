@@ -1,0 +1,16 @@
+{
+  "accuracy": 0.9828247761739448,
+  "macro_precision": 0.9340984627568336,
+  "macro_recall": 0.8766240484083092,
+  "macro_f1": 0.9032424877299009,
+  "macro_specificity": 0.9851665099138994,
+  "macro_auc": 0.9918766883189385,
+  "weighted_precision": 0.9821957340076763,
+  "weighted_recall": 0.9828247761739448,
+  "weighted_f1": 0.9822332550993504,
+  "config": "resnet1d",
+  "parameters": 52933,
+  "train_time_s": 35.9,
+  "epochs_run": 10,
+  "inference_ms_per_sample": 0.0166
+}

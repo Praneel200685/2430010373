@@ -1,0 +1,19 @@
+{
+  "config": "cnn",
+  "best_val_macro_f1": 0.883436003429499,
+  "epochs_run": 10,
+  "trainable_params": 52453,
+  "train_time_s": 45.7,
+  "hyperparameters": {
+    "lr": 0.001,
+    "batch_size": 256,
+    "epochs": 10,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "hidden": 64,
+    "patience": 8,
+    "grad_clip": 1.0,
+    "focal_gamma": 2.0,
+    "seed": 42
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "config": "bilstm",
+  "best_val_macro_f1": 0.696983037557107,
+  "epochs_run": 10,
+  "trainable_params": 134277,
+  "train_time_s": 219.4,
+  "hyperparameters": {
+    "lr": 0.001,
+    "batch_size": 256,
+    "epochs": 10,
+    "weight_decay": 0.0001,
+    "dropout": 0.3,
+    "hidden": 64,
+    "patience": 8,
+    "grad_clip": 1.0,
+    "focal_gamma": 2.0,
+    "seed": 42
+  }
+}
