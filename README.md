@@ -5,7 +5,11 @@ attention, followed by a BiLSTM with additive temporal attention pooling, for fi
 classification on MIT-BIH. A Pre-LN Transformer variant, class-weighted focal loss, and physiological
 augmentation are also included.
 
-**Author:** Praneel Kapoor · Dept. of Data Science and Engineering, Manipal University Jaipur
+## Student Details
+- **Student Name:** Swastiek
+- **Registration Number:** `2430010378`
+- **Section:** CSE (Data Science) - Semester 5
+- **Course:** Deep Learning
 
 ## Repository layout
 
